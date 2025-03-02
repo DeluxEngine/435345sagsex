@@ -1,3 +1,4 @@
 return {
-  ["Orcas Pool"] = "Orca"
+  ["Orcas Pool"] = "Orca",
+  ["Megalodon Default"] = "Megalodon"
 }
