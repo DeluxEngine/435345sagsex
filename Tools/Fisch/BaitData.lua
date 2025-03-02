@@ -1,4 +1,5 @@
 return {
+        ["Magnet"] = { LureSpeed = "0", Luck = "200", GenerelLuck = "0", Rarity = "Unusual", Resilience = "0", },
         ["Worm"] = { LureSpeed = "15", Luck = "25", GenerelLuck = "0", Rarity = "Common", Resilience = "0", },
         ["Peppermint Worm"] = { LureSpeed = "-5", Luck = "50", GenerelLuck = "30", Rarity = "Unusual", Resilience = "20", },
         ["Coal"] = { LureSpeed = "0", Luck = "45", GenerelLuck = "0", Rarity = "Rare", Resilience = "-10", },
