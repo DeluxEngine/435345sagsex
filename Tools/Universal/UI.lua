@@ -1,4 +1,5 @@
-
+-- made by portal
+-- example at bottom
 local Library = {};
 do
 	Library = {
@@ -544,6 +545,7 @@ do
 				Elements = {};
 				Dragging = { false, UDim2.new(0, 0, 0, 0) };
 				Title = Options.Name or Options.Name or Options.Name or "new ui";
+				Version = Options.Version or "<font color=\"#4e4e4e\">version: </font> live"
 			};
 
 			-- // Instances
@@ -687,7 +689,7 @@ do
 			version.BackgroundTransparency = 1
 			version.BorderSizePixel = 0
 			version.BorderColor3 = Color3.new(0,0,0)
-			version.Text = "<font color=\"#4e4e4e\">version: </font> live"
+			version.Text = Base.Version
 			version.TextColor3 = Library.Accent
 			version.FontFace = Library.UIFont
 			version.TextSize = Library.FontSize
