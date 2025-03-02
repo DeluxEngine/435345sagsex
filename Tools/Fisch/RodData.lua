@@ -103,3 +103,4 @@ return {
         ["Plastic Rod"] = { Price = "900" },
         ["Candy Cane Rod"] = { Price = "inf" },
         ["North-Star Rod"] = { Price = "inf" },
+}
