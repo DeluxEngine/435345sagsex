@@ -1,5 +1,3 @@
--- made by portal
--- example at bottom
 local Library = {};
 do
 	Library = {
@@ -1862,7 +1860,7 @@ do
 			local Gradient = Instance.new('UIGradient', Frame)
 			local Value = Instance.new('TextLabel', Frame)
 			local Icon = Instance.new('TextLabel', Frame)
-			local Content = Instance.new('Frame', Frame)
+			local Content = Instance.new('ScrollingFrame', Frame)
 			local Gradient2 = Instance.new('UIGradient', Content)
 			local UIListLayout = Instance.new('UIListLayout', Content)
 			local Title = Instance.new('TextLabel', Holder)
@@ -1930,12 +1928,13 @@ do
 			--
 			Content.Name = "Content"
 			Content.Position = UDim2.new(0,0,0,18)
-			Content.Size = UDim2.new(1,0,0,0)
+			Content.Size = UDim2.new(1,0,0,100)
 			Content.BackgroundColor3 = Color3.new(0.0784,0.0784,0.0784)
 			Content.BorderColor3 = Color3.new(0,0,0)
 			Content.Visible = false
 			Content.ZIndex = 110
-			Content.AutomaticSize = Enum.AutomaticSize.Y
+			Content.AutomaticCanvasSize = Enum.AutomaticSize.Y
+            Content.ScrollBarThickness = 6
 			--
 			Gradient2.Name = "Gradient2"
 			Gradient2.Color = ColorSequence.new{
