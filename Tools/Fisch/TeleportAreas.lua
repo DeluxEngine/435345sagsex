@@ -1,4 +1,6 @@
 return {
+    ["Veil of Forsaken"] = "bossarena",
+    ["Calm Zone"] = "chesspuzzle",
     ["Alter"] = "enchant", -- f
     ["Ancient Isle"] = "ancient",
     ["The Arch"] = "arch",
