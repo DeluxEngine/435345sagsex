@@ -49,6 +49,9 @@ do
 end
 
 -- Core UI functions
+local Library = {}
+Library.__index = Library
+
 function Library:Window(config)
   local window = {
     Title = config.Name or "New Window",
